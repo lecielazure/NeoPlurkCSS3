@@ -491,7 +491,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 
 /* 個人簡介欄 */
 #dash-profile {
-	position: absolute;
+	position: relative;
 	margin-left: 175px;
 	height: 230px;
 	-webkit-transition: height 0.5s ease-out 0.5s;
@@ -522,8 +522,9 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 }
 
 /* 卡馬狀態欄 */
+
 #dash-stats {
-	height: 55px;
+	height: 35px;
 	-webkit-transition: height 0.5s ease-out 0.5s;
 	-moz-transition: height 0.5s ease-out 0.5s;
 	-o-transition: height 0.5s ease-out 0.5s;
@@ -533,17 +534,18 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 	-webkit-transition: height 0.5s ease-out 0.5s;
 	-moz-transition: height 0.5s ease-out 0.5s;
 	-o-transition: height 0.5s ease-out 0.5s;
-}
+} 
 /* 卡馬 */
+
 #dash-stats h3 {
 	margin: 0px 0px 0px 30px;
 	padding: 0px;
-	font-size: 2em;
+	font-size: 0.8em;
 	white-space: nowrap !important;
 }
 #dash-stats h3 #karma_holder {
 	margin: 0px 0px 0px 30px;
-	font-size: 1.2em;
+	font-size: 0.8em;
 }
 #dash-stats h3 #karma_holder #karma {
 	color: black !important;
@@ -554,7 +556,7 @@ textarea#input_big, #more_options .auto_ta, #more_options select, .clipboard {
 	color: white !important;
 	text-shadow: 0px 0px 10px yellow;
 	font-weight: bold;
-}
+} 
 /* 狀態數值 */
 #dash-stats table td {
 	color: white !important;
